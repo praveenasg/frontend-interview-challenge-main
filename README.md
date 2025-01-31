@@ -1,64 +1,77 @@
-# Getting Started
+# **README.md**
 
-Download the project, please do not fork the project.
+## **Project Overview**
 
-Make sure you have latest node.js installed on your machine.
+This project is a Vue.js web application that simulates a website for selling tickets. The application has three main pages: an admin page for creating tickets, a home page to display them, and a shopping cart page.
 
-Run the following commands in the project directory:
+## **Getting Started**
 
-```npm install```
+### Prerequisites
 
-```npm run dev```
+- Node.js (latest version)
+- npm (latest version)
+- A code editor or IDE of your choice
 
-# Vue 3 + TypeScript + Vite
+### Downloading the Project
 
-Develop a Vue.js web application that simulates website for selling tickets. The application will have three main pages: an admin page for creating tickets and a home page to display them. The challenge will assess your proficiency in Vue.js, state management, component design, and Typescript.
+1. Clone the repository using the following command:
+   ```bash
+   git clone https://github.com/your-username/frontend-interview-challenge.git
+   ```
 
-The application should be responsive and function properly on modern web browsers.
+````
+2. Navigate to the project directory:
+   ```bash
+cd frontend-interview-challenge
+````
 
-Tailwind CSS is included in the project. You may use it to style your application or use CSS framework or UI library of your choice.
+### Installing Dependencies
 
+1. Install the required dependencies using npm:
+   ```bash
+   npm install
+   ```
 
-# Core Pages:
+````
 
-## Admin Page (/admin):
+### Running the Project
 
-This is the page where tickets are created.
+1. Start the development server using the following command:
+   ```bash
+npm run dev
+````
 
-Create an interface with input fields to add new event ticket items. Fields should include: Ticket Name, Description, IsVIP (checkbox), Count (number of tickets available), and Price.
-Implement a submission form that adds the ticket data to a centralized store upon submission.
-Show a list of all created tickets. Each ticket should have a button to delete the ticket from the store.
+2. Open your web browser and navigate to `http://localhost:5173` to view the application.
 
-## Index Page (Home Page):
+### Testing the Project
 
-This is the page where tickets are displayed and can be added to shopping cart.
+1. Run the tests using the following command:
+   ```bash
+   npm run test
+   ```
 
-Display a list of all created tickets. 
-VIP tickets should be visually distinguishable from regular tickets (e.g., different color, badge, etc.).
-Add a button to each ticket to add the ticket to a shopping cart.
+```
 
-## Shopping Cart (/cart):
-Create a shopping cart that displays all tickets that have been added to the cart.
+**Project Structure**
+---------------------
 
-Note: The shopping cart does not need to persist on page reload. Shopping cart doesn't need to include checkout functionality.
+* `src`: The source code directory.
+* `src/pages`: The directory containing the page components (Admin, Home, Cart).
+* `src/store`: The directory containing the store (ticketStore).
+* `src/components`: The directory containing the reusable components (ConfirmModal).
+* `src/tests`: The directory containing the unit tests.
+* `vite.config.ts`: The Vite configuration file.
+* `tsconfig.json`: The TypeScript configuration file.
 
+**Troubleshooting**
+-------------------
 
-# Functionality:
+* If you encounter any issues during installation or execution, please check the console output for error messages.
+* Make sure you have the latest version of Node.js and npm installed.
+* If you're still experiencing issues, feel free to open an issue on the GitHub repository.
 
-State Management: Use Vue's reactivity system, Pinia, Vuex, or the Composition API for managing the application state.
-Data Handling: Implement mock data handling. Data does not need to persist on page reload unless you choose to implement local storage or a backend service.
-Routing: Use Vue Router to navigate between the Admin and Index pages.
+**License**
+----------
 
-
-# Code Quality and Standards:
-Write clean, well-structured, and commented code.
-Follow best practices for Vue.js and Typescript.
-
-
-# Bonus Points:
-Testing (Optional, but recommended): Write basic unit tests for key components.
-
-
-# Submission:
-
-Please submit your code in a public GitHub repository and send us the link. Include a README.md file with instructions on how to run the application.
+This project is licensed under the MIT License. See the LICENSE file for more information.
+```
