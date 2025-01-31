@@ -15,63 +15,59 @@ This project is a Vue.js web application that simulates a website for selling ti
 ### Downloading the Project
 
 1. Clone the repository using the following command:
-   ```bash
-   git clone https://github.com/your-username/frontend-interview-challenge.git
-   ```
 
-````
+```bash
+   git clone https://github.com/your-username/frontend-interview-challenge.git
+```
+
 2. Navigate to the project directory:
-   ```bash
+
+```bash
 cd frontend-interview-challenge
-````
+```
 
 ### Installing Dependencies
 
 1. Install the required dependencies using npm:
-   ```bash
-   npm install
-   ```
 
-````
+```bash
+   npm install
+```
 
 ### Running the Project
 
 1. Start the development server using the following command:
-   ```bash
-npm run dev
-````
+
+```bash
+   npm run dev
+```
 
 2. Open your web browser and navigate to `http://localhost:5173` to view the application.
 
 ### Testing the Project
 
 1. Run the tests using the following command:
-   ```bash
-   npm run test
-   ```
 
+```bash
+   npm run test
 ```
 
-**Project Structure**
----------------------
+## **Project Structure**
 
-* `src`: The source code directory.
-* `src/pages`: The directory containing the page components (Admin, Home, Cart).
-* `src/store`: The directory containing the store (ticketStore).
-* `src/components`: The directory containing the reusable components (ConfirmModal).
-* `src/tests`: The directory containing the unit tests.
-* `vite.config.ts`: The Vite configuration file.
-* `tsconfig.json`: The TypeScript configuration file.
+- `src`: The source code directory.
+- `src/pages`: The directory containing the page components (Admin, Home, Cart).
+- `src/store`: The directory containing the store (ticketStore).
+- `src/components`: The directory containing the reusable components (ConfirmModal).
+- `src/tests`: The directory containing the unit tests.
+- `vite.config.ts`: The Vite configuration file.
+- `tsconfig.json`: The TypeScript configuration file.
 
-**Troubleshooting**
--------------------
+## **Troubleshooting**
 
-* If you encounter any issues during installation or execution, please check the console output for error messages.
-* Make sure you have the latest version of Node.js and npm installed.
-* If you're still experiencing issues, feel free to open an issue on the GitHub repository.
+- If you encounter any issues during installation or execution, please check the console output for error messages.
+- Make sure you have the latest version of Node.js and npm installed.
+- If you're still experiencing issues, feel free to open an issue on the GitHub repository.
 
-**License**
-----------
+## **License**
 
 This project is licensed under the MIT License. See the LICENSE file for more information.
-```
